@@ -12,7 +12,7 @@ accessible to you - whether to extend Mix for your own personal projects, or to 
 
 ```js
 // webpack.mix.js;
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.extend('foo', function(webpackConfig, ...args) {
     // The webpack configuration object.
@@ -39,7 +39,7 @@ you'll likely want to build a full component class, like so:
 
 ~~~js
 // foo.js
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 class FooPlugin {
     register(val) {
@@ -57,7 +57,7 @@ mix.extend('foo', new FooPlugin());
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 require('./foo');
 
@@ -223,7 +223,7 @@ and you're all set to go.
 ```js
 // example.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 class Example {
     webpackRules() {
@@ -240,7 +240,7 @@ mix.extend('example', new Example());
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 require('./example');
 

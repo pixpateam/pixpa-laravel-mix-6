@@ -40,7 +40,7 @@ Open `webpack.mix.js` and add the following code:
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.js('src/app.js', 'dist').setPublicPath('dist');
 ```

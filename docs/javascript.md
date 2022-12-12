@@ -17,7 +17,7 @@ With a single method call, Laravel Mix allows you to trigger a variety of powerf
 -   Automatically optimizate and minify, when building for production (`npx mix --production`).
 
 ```js
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 // 1. Compile src/app.js to dist/app.js
 mix.js('src/app.js', 'dist');

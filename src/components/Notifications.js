@@ -26,7 +26,7 @@ module.exports = class Notifications extends Component {
                 timeout: false,
                 hint: process.platform === 'linux' ? 'int:transient:1' : undefined,
                 contentImage: this.context.paths.root(
-                    'node_modules/laravel-mix/icons/laravel.png'
+                    'node_modules/pixpa-laravel-mix/icons/laravel.png'
                 )
             })
         ];

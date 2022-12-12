@@ -1,5 +1,5 @@
 {
-    "name": "@pixpa/laravel-mix-6",
+    "name": "pixpa-laravel-mix-6",
     "version": "6.0.49",
     "description": "The power of webpack, distilled for the rest of us.",
     "main": "src/index.js",

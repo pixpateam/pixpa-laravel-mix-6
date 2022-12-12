@@ -21,7 +21,7 @@ No problem. Let's add Stylus compilation to our `webpack.mix.js` file.
 
 ```js
 // webpack.mix.js
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.stylus('src/app.styl', 'dist');
 ```

@@ -69,7 +69,7 @@ new Vue({
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.js('src/app.js', 'public/js').vue();
 ```

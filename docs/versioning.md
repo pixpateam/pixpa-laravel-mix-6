@@ -20,7 +20,7 @@ Imagine that your server automatically caches scripts for one year to improve pe
 With Mix versioning enabled, a unique querystring id will be appended to your assets every time your code is compiled. Consider the following `webpack.mix.js` file.
 
 ```js
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.js('src/app.js', 'dist/js')
     .sass('src/app.sass', 'dist/css')

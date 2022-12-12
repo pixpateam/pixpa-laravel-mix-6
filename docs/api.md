@@ -5,7 +5,7 @@ Below, you'll find the full Mix API. Out of the box, Mix supports a wide array o
 The methods below assume that you've imported `mix` at the top of your `webpack.mix.js` file, like so:
 
 ```js
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 ```
 
 ### `.js(src, output)`

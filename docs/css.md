@@ -21,7 +21,7 @@ We can now add CSS compilation to our `webpack.mix.js` file, like so:
 
 ```js
 // webpack.mix.js
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.css('src/app.css', 'dist');
 ```

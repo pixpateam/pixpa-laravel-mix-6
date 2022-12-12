@@ -33,7 +33,7 @@ Next, add PostCSS compilation to your `webpack.mix.js` file, like so:
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.postCss('src/app.css', 'dist');
 ```
@@ -48,7 +48,7 @@ of plugins as the third argument to `mix.postCss()`, like so:
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.postCss('src/app.css', 'dist', [
     require('postcss-custom-properties')
@@ -62,7 +62,7 @@ The above example will **exclusively** pipe `src/app.css` through the `postcss-c
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.postCss('src/one.css', 'dist', [
     require('postcss-custom-properties')
@@ -112,7 +112,7 @@ With this adjustment, your `webpack.mix.js` file can return to:
 ```js
 // webpack.mix.js
 
-let mix = require('laravel-mix');
+let mix = require('pixpa-laravel-mix');
 
 mix.postCss('src/app.css', 'dist');
 ```
